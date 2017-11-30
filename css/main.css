@@ -9,6 +9,7 @@ html {
 
 body {
   background-color: rgba(0, 0, 0, .5);
+  margin: 0;
 }
 
 .img-flex {
@@ -24,8 +25,8 @@ body {
 
 .banner-content {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 50%;
+  bottom: 50%;
   transform: translateX(-50%);
   max-width: 50em;
 }
