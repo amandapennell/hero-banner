@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: rgba(0, 0, 0, .5);
+}
+
 .img-flex {
   display: block;
   width: 100%;
@@ -22,16 +26,17 @@ html {
   position: absolute;
   left: 0;
   bottom: 0;
+  transform: translateX(-50%);
   max-width: 50em;
 }
 
 .banner-title {
   font-size: 4rem;
   font-weight: bold;
-  background-color: rgba(0, 0, 0, .5);
 }
 
 .banner-body {
   font-size: 2rem;
+  font-weight: bold;
   font-style: italic;
 }
