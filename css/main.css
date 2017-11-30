@@ -37,10 +37,12 @@ body {
   font-weight: bold;
   color: #fff;
   background-color: rgba(0, 0, 0, .5);
+  margin: 0;
 }
 
 .banner-body {
   font-size: 2rem;
   font-weight: bold;
   font-style: italic;
+  margin: 0;
 }
