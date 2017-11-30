@@ -11,3 +11,23 @@ html {
   display: block;
   width: 100%;
 }
+
+.banner {
+  position: relative;
+  max-height: 500px;
+}
+
+.banner-content {
+  position: absolute;
+  max-width: 50em;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.banner-body {
+  font-size: 2rem;
+  font-style: italic;
+}
