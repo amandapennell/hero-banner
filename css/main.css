@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -14,11 +14,14 @@ html {
 
 .banner {
   position: relative;
+  overflow: hidden;
   max-height: 500px;
 }
 
 .banner-content {
   position: absolute;
+  left: 0;
+  bottom: 0;
   max-width: 50em;
 }
 
