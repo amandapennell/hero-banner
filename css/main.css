@@ -25,6 +25,7 @@ html {
 .banner-title {
   font-size: 4rem;
   font-weight: bold;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .banner-body {
